@@ -1,7 +1,7 @@
 # WUFIX - Windows Update Fix Utility (PowerShell)
 
 [![GitHub license](https://img.shields.io/github/license/mashape/apistatus.svg)](LICENSE)
-[![GitHub stars](https://img.shields.io/github/stars/YOUR_USERNAME/WUFIX?style=social)](https://github.com/YOUR_USERNAME/WUFIX/stargazers)
+[![GitHub stars](https://img.shields.io/github/stars/FkLeviDev/Windows-Update-Error-fix-0x80070306-?style=social)](https://github.com/FkLeviDev/Windows-Update-Error-fix-0x80070306-/stargazers)
 
 ---
 
@@ -89,7 +89,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 ## 📧 Contact
 
-Predox | FKLEVI Dev - [Insert your email or GitHub profile link here]
+Predox | FKLEVI Dev - leventefarkas111+github@gmail.com
 
 ---
 *Created by Predox | FKLEVI Dev*
