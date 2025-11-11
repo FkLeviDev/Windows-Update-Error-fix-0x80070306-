@@ -32,21 +32,20 @@ This PowerShell version enhances the reliability of previous Batch versions by u
 * PowerShell (Default)
 * Active internet connection (required for DISM/SFC components).
 
-### How to Run
+### How to Run (Recommended for all users)
 
-1. Download the **`WUFIX.ps1`** file.
-2. Open a **PowerShell** window.
-3. Navigate to the folder containing the script (e.g., `cd C:\Users\YourName\Desktop`).
-4. Execute the script using the following command:
+1.  Download the **`WUFIX.ps1`** file.
+2.  Open a **PowerShell** window **as Administrator** (Run as Administrator). *This step is essential for the script's core functions.*
+3.  Navigate to the folder containing the script (e.g., `cd C:\Users\YourName\Desktop`).
+4.  Execute the script using the following **policy bypass** command:
 
     ```powershell
-    .\WUFIX.ps1
+    PowerShell -ExecutionPolicy Bypass -File .\WUFIX.ps1
     ```
 
-    > **Note:** If you receive an `execution policy` error, you might need to temporarily allow scripts to run by executing (as Administrator):
-    > `Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope Process`
+    > **Note:** Using the `-ExecutionPolicy Bypass` flag allows the script to run immediately regardless of your system's security settings (e.g., Restricted or AllSigned) without permanently changing your computer's execution policy.
 
-5. The script will launch, request Administrator rights (UAC), perform the 6 steps, display a final message, and **automatically reboot your computer after 5 seconds**.
+5.  The script will launch, perform the 6 steps, display a final message, and **automatically reboot your computer after 5 seconds**.
 
 ---
 
